@@ -1,0 +1,165 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: BAP node microframework
+  version: 0.x
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage/
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage/
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Get started
+      url: /
+      type: homepage
+      output: web, pdf
+
+    - title: Installation of the standard edition
+      url: /installation-standard-edition
+      output: web, pdf
+
+  - title: Tutorial
+    output: web, pdf
+    folderitems:
+
+    - title: Tutorial 1 - Standard edition features
+      url: /tutorial-standard-edition-features
+      output: web, pdf
+
+    - title: Tutorial 2 - Dependency installation and initial configuration
+      url: /tutorial-dependency-installation
+      output: web, pdf
+
+    - title: Tutorial 3 - Import an external module, the Ping module
+      url: /tutorial-import-external-module
+      output: web, pdf
+
+    - title: Tutorial 4 - Create your first module, the Hello module
+      url: /tutorial-create-hello-module
+      output: web, pdf
+
+  - title: Cookbooks
+    output: web, pdf
+
+    folderitems:
+    - title: How to use eventListeners
+      url: /how_to_use_event_listeners
+      output: web, pdf
+
+    - title: How to create an external module
+      url: /how_to_create_an_external_module
+      output: web, pdf
+
+    - title: How to create a plugin
+      url: /mydoc_sidebar_navigation/
+      output: web, pdf
+
+    - title: How to secure your application
+      url: /mydoc_sidebar_navigation/
+      output: web, pdf
+
+    - title: How to test your application
+      url: /how_to_test_your_application
+      output: web, pdf
+
+  - title: API docs
+    output: web, pdf
+
+    folderitems:
+    - title: ParamConverter
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: EventListener
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: QueryParam
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: RequestParam
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: Security
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: Routings
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: Module
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: Logger
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: EventSubscriber
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: BaseController
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: Container
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: Application
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: KernelInterface
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+  - title: Plugins and modules
+    output: web, pdf
+
+    folderitems:
+      - title: Mongoose
+        url: /mydoc_adding_tooltips/
+        output: web, pdf
+
+      - title: Sequelize
+        url: /mydoc_adding_tooltips/
+        output: web, pdf
+
+      - title: Cors
+        url: /mydoc_adding_tooltips/
+        output: web, pdf
+
+      - title: Passport
+        url: /mydoc_adding_tooltips/
+        output: web, pdf
+
+      - title: Oauth
+        url: /mydoc_adding_tooltips/
+        output: web, pdf
+
+      - title: Ping module
+        url: /mydoc_adding_tooltips/
+        output: web, pdf
+
+      - title: Socket.io
+        url: /mydoc_adding_tooltips/
+        output: web, pdf
